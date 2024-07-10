@@ -28,6 +28,9 @@ nav ul li{
     font color: #0D1321;
     padding: 17px 24px;
 }
+.text-align{
+    text-align: center;
+}
 /* header styles */
 .header{
     background-image: url('../assets/Hero-bg.png');
@@ -42,7 +45,7 @@ nav ul li{
 .banner-title{
    font-weight: 800;
    font-size: 48px;
-   text-align: center;
+   text-align: auto;
 }
 .banner-description{
     font-weight: 400;
@@ -51,8 +54,6 @@ nav ul li{
 }
 .banner-section-container{
     text-align: center;
-    margin: 100px;
-    padding: 35px 220px;
     margin-top: 0;
 }
 .btn-secondary{
@@ -62,11 +63,16 @@ nav ul li{
     padding: 21px 24px;
     border-radius: 5px;
 
-/* section styles */
-main{
-    display: flex;
-}
-.skill-container{
-    display: flex;
-    justify-content: space-around;
+/* skills styles*/
+.section-title{
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+ }
+.section-decription{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+section h3{
+    font-weight: 800;
 }
